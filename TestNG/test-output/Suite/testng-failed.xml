@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="project.CheckBox1">
+        <methods>
+          <include name="checkboxTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- project.CheckBox1 -->
+      <class name="project.LinksTesting1">
+        <methods>
+          <include name="linktesting1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- project.LinksTesting1 -->
+      <class name="project.RadioButton1">
+        <methods>
+          <include name="radioButtonTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- project.RadioButton1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
