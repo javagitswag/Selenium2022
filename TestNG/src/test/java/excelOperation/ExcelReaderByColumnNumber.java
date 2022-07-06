@@ -12,7 +12,7 @@ public class ExcelReaderByColumnNumber
 {
 	public static void main(String[] args) throws Exception
 	{
-	FileInputStream fis=new FileInputStream("C:\\Users\\mama\\Desktop\\book1.xlsx");
+	FileInputStream fis =new FileInputStream("C:\\Users\\mama\\Desktop\\book1.xlsx");
 	XSSFWorkbook wb= new XSSFWorkbook(fis);
 	XSSFSheet sheet=wb.getSheet("login");
 	XSSFRow row=sheet.getRow(1);
