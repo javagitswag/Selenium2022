@@ -39,7 +39,7 @@ public class DataManagement
 	{
 		for(int cNum=0;cNum<cols;cNum++ )
 		{
-			System.out.println(e.getCellData(sheetName, cNum, cNum));
+			System.out.println(e.getCellData(sheetName, cNum, rNum));
 		}
 		
 		
