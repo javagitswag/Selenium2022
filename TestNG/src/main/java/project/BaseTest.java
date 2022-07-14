@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Properties;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 import java.util.logging.ErrorManager;
 
@@ -64,12 +66,13 @@ public class BaseTest
 		String e =mainprop.getProperty("env");
 		System.out.println(e);
 	
-	   fis=new FileInputStream(projectpath+"/src/main/resources/"+e+".properties");	
-	   childprop=new Properties();
-	   childprop.load(fis);
-	  String v = childprop.getProperty("amazonurl");
-	  System.out.println(v);
-	                                         
+		 fis=new FileInputStream(projectpath+"/src/main/resources/"+e+".properties");	
+		 childprop=new Properties();
+	     childprop.load(fis);
+		 String v = childprop.getProperty("practiceurl");
+		 System.out.println(v);
+		
+	                                       
 	  fis=new FileInputStream(projectpath+"/src/main/resources/org.properties");
 	  orgprop=new Properties();
 	  orgprop.load(fis);
@@ -119,8 +122,9 @@ public class BaseTest
 			pofile.setPreference("network.proxy.socks","192.168.10.1");
 			pofile.setPreference("network.proxy.socks_port",1744);
 			
-			
 			driver=new FirefoxDriver(option);
+		
+			driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 		}
 	}
 	
@@ -264,11 +268,15 @@ public class BaseTest
 		FileHandler.copy(scrFile, new File(projectpath+"//failurescreenshots//"+dateFormat));
 		
 		test.log(Status.INFO, "Screenshot --->" +test.addScreenCaptureFromPath(projectpath+"//failurescreenshots//"+dateFormat));
+	}
+	public int randomNum()
+	{
+		Random r=new Random();
+		int ran=r.nextInt(99999);
+		return ran;
+	}
 
-	}
-	
-	
-	}
+}
 
 
 

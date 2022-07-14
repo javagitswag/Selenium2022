@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="project.TestDependency">
+      <class name="alertSwitching.FileUpload">
         <methods>
-          <include name="green"/>
-          <include name="orange"/>
-          <include name="white"/>
-          <include name="blue"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- project.TestDependency -->
+      </class> <!-- alertSwitching.FileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
