@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="134" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+      <class name="testcases.PortifolioManagement">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testcases.PortifolioManagement@617faa95]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="createPortifolio()[pri:0, instance:testcases.PortifolioManagement@617faa95]" name="createPortifolio" duration-ms="0" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortifolio -->
+      </class> <!-- testcases.PortifolioManagement -->
+      <class name="testcases.Session">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.Session@7e0b0338]" name="beforeTest" is-config="true" duration-ms="47" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:testcases.Session@7e0b0338]" name="doLogin" duration-ms="15" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testcases.Session@7e0b0338]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+      </class> <!-- testcases.Session -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
