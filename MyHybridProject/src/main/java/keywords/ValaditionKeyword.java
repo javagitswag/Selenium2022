@@ -1,6 +1,6 @@
 package keywords;
 
-public class ValaditionKeyword
+public class ValaditionKeyword extends GenericKeyword
 {
 	public void validateTitle(String title)
 	{

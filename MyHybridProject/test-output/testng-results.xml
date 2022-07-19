@@ -2,33 +2,54 @@
 <testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="134" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+  <suite name="Suite" duration-ms="138852" started-at="2022-07-18T11:21:46Z" finished-at="2022-07-18T11:24:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="134" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+    <test name="Test" duration-ms="138852" started-at="2022-07-18T11:21:46Z" finished-at="2022-07-18T11:24:05Z">
       <class name="testcases.PortifolioManagement">
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testcases.PortifolioManagement@617faa95]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcases.PortifolioManagement@617faa95]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-07-18T11:24:05Z" finished-at="2022-07-18T11:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d6bc158]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="createPortifolio()[pri:0, instance:testcases.PortifolioManagement@617faa95]" name="createPortifolio" duration-ms="0" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+        <test-method status="PASS" signature="createPortifolio()[pri:0, instance:testcases.PortifolioManagement@617faa95]" name="createPortifolio" duration-ms="1" started-at="2022-07-18T11:24:05Z" finished-at="2022-07-18T11:24:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPortifolio -->
       </class> <!-- testcases.PortifolioManagement -->
       <class name="testcases.Session">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.Session@7e0b0338]" name="beforeTest" is-config="true" duration-ms="47" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.Session@7e0b0338]" name="beforeTest" is-config="true" duration-ms="59" started-at="2022-07-18T11:21:46Z" finished-at="2022-07-18T11:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d6bc158]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:testcases.Session@7e0b0338]" name="doLogin" duration-ms="15" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testcases.Session@7e0b0338]" name="beforemethod" is-config="true" duration-ms="0" started-at="2022-07-16T14:50:26Z" finished-at="2022-07-16T14:50:26Z">
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testcases.Session@7e0b0338]" name="beforemethod" is-config="true" duration-ms="1" started-at="2022-07-18T11:21:46Z" finished-at="2022-07-18T11:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d6bc158]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:testcases.Session@7e0b0338]" name="doLogin" duration-ms="138719" started-at="2022-07-18T11:21:46Z" finished-at="2022-07-18T11:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
       </class> <!-- testcases.Session -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

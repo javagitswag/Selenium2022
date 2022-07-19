@@ -9,6 +9,7 @@
       </methods>
       </class>
       
+      
       <class name="testcases.PortifolioManagement">
       <methods>
        <include name="createPortifolio"></include>      
